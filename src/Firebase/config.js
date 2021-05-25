@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCXbCXIdOpIvBl8ly9HYBz0ug0DCyIoWHs",
-  authDomain: "tiktok-clone-3cbb5.firebaseapp.com",
-  projectId: "tiktok-clone-3cbb5",
-  storageBucket: "tiktok-clone-3cbb5.appspot.com",
-  messagingSenderId: "609060763265",
-  appId: "1:609060763265:web:d4f8938552a94e3583bf80",
-  measurementId: "G-PJY2MT27PC",
+  apiKey: process.env.REACT_API_KEY,
+  authDomain: process.env.REACT_AUTH_DOMAIN,
+  projectId: process.env.REACT_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_API_MESSAGE_SENDER_ID,
+  appId: process.env.REACT_APP_ID,
+  measurementId: process.env.REACT_MEASUREMENT_ID,
 };
